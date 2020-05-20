@@ -13,7 +13,7 @@
 <body>
     <header>
         <nav class="menu">
-            <ul>
+            <ul class="container">
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#portfolio">Portfólio</a></li>
                 <li><a href="#contato">Contato</a></li>
@@ -24,14 +24,42 @@
             <h2 class="site-subtitle">Developer</h2>
         </div>
     </header>   
-    <section class="portfolio" id="portfolio">
+    <section class="sobre container" id="sobre">
+        <h2>Sobre</h2>
+        <figure class="avatar">
+            <img src="https://pt.gravatar.com/userimage/163074367/45f95208d96b156f4312ccff593257a6.jpg?size=200" alt="Daniel Sahara">
+        </figure>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid culpa fugiat tempore accusantium, voluptatibus unde reprehenderit doloribus magni quis dolorem soluta id quos nobis eius esse quisquam, molestias, omnis illo.
+        </p>
+        <p>
+            Amet exercitationem consequuntur odit quasi id, voluptates, deserunt vero at quidem necessitatibus ea perferendis aperiam iste esse hic? Unde ex eligendi molestiae consequuntur ratione minima maiores incidunt aspernatur, error deserunt.
+        </p>
+        <p>
+            Eveniet cupiditate sunt aperiam quo fuga, dolorum quidem nam accusantium iste voluptatum id! Libero delectus veniam, suscipit magnam eos dolores magni necessitatibus numquam rem doloremque repudiandae optio, fugiat, quas ratione!
+        </p>
+        <p>
+            Delectus tempore laudantium placeat ex quod error! Reprehenderit, molestias optio. Quos, amet placeat recusandae nulla eius temporibus at illo harum neque corrupti aliquam, exercitationem doloremque! Quidem, explicabo tempore! Commodi, ut?
+        </p>
+        <p>Este site foi construido durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a></p>
+        
+    </section>
+    <section class="portfolio container" id="portfolio">
         <h2>Portfólio</h2>
         
         <div class="grid">
-            <figure>
-                <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
-                <figcaption>eCommerce</figcaption>
-            </figure>
+            <div class="flip-card">
+            <div class="card">
+                <figure class="card-front">
+                    <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
+                    <figcaption>eCommerce</figcaption>
+                </figure>
+                <div class="card-back">
+                    Oi, sou a parte de trás
+                </div>
+            </div>
+            </div>
+        
             <figure>
                 <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
                 <figcaption>Mobile</figcaption>
@@ -45,9 +73,10 @@
                     alt="Projetos pessoais">
                 <figcaption>Projetos pessoais</figcaption>
             </figure>
+            
         </div>
     </section>
-    <section class="contato" id="contato">
+    <section class="contato container" id="contato">
         <h2>Contato</h2>
           <div class="grid icons">
             <a target="_blank" href="https://github.com/vanessametonini">
